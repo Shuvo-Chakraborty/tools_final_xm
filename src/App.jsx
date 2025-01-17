@@ -23,14 +23,6 @@ function App() {
     <div classname= 'mt[50px]'><hr />   </div>
 
 
-      {/* <div >
-        <ul className='flex justify-between items-center'>
-        <li><a href=''><button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded ml-4">ALL</button></a></li>
-        <li><a href=''><button className='btn btn-outline btn-accent'>Music</button></a></li>
-        <li><a href=''><button className='btn btn-outline btn-accent'>Comedy</button></a></li>
-        <li><a href=''><button className='btn btn-outline btn-accent'>Drawing</button></a></li>
-        </ul>
-      </div> */}
       <div className="flex space-x-4 mb-4 justify-center mt-2">
         <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">All</button>
         <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Music</button>
@@ -40,6 +32,63 @@ function App() {
 
 
       </header>
+
+      <body>
+        <div className='flex justify-between'>
+        <div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+
+<div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+        </div>
+
+
+      </body>
 
 
      
