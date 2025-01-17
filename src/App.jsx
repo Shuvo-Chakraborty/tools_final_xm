@@ -8,40 +8,41 @@ function App() {
 
   return (
     <>
-      <header className='max-w-[1321px] mx-auto mt-[100px]'>
+      <header >
 
-      <div className='flex justify-between'>
-      {/* <h1><span>PH</span>Tube</h1> */}
-
-
-          <h1 className="text-3xl font-bold text-gray-800"><span className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded ml-4">PH </span>Tube</h1>
+      <div className='flex justify-between mb-2'>
+        <h1> 
+        <span className="text-red-500">PH</span>
+         <span className="text-black">Tube</span>
+       </h1>
+          {/* <h1 className="text-3xl font-bold text-gray-800"><span className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded ml-4">PH </span>Tube</h1> */}
           <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Sort by view</button>
            <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded ml-4">Blog</button>
-        
       </div>
-      
-    
+
+    <div classname= 'mt[50px]'><hr />   </div>
+
+
+      {/* <div >
+        <ul className='flex justify-between items-center'>
+        <li><a href=''><button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded ml-4">ALL</button></a></li>
+        <li><a href=''><button className='btn btn-outline btn-accent'>Music</button></a></li>
+        <li><a href=''><button className='btn btn-outline btn-accent'>Comedy</button></a></li>
+        <li><a href=''><button className='btn btn-outline btn-accent'>Drawing</button></a></li>
+        </ul>
+      </div> */}
+      <div className="flex space-x-4 mb-4 justify-center mt-2">
+        <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">All</button>
+        <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Music</button>
+        <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Comedy</button>
+        <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Drawing</button>
+      </div>
+
 
       </header>
 
-      {/* <header>
-       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="mb-8">
-        <div className="flex items-center">
-          <div className="mr-4">
-            <svg className="w-8 h-8 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M18 12a6 6 0 1 0 -12 0 6 6 0 0 0 12 0z" />
-              <path d="M12 2v20" />
-            </svg>
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800">PH Tube</h1>
-        </div>
-      </div>
-      <div className="mb-8">
-        <button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Sort by view</button>
-        <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded ml-4">Blog</button>
-      </div>
-      </header> */}
+
+     
    </>  
   )
 }
